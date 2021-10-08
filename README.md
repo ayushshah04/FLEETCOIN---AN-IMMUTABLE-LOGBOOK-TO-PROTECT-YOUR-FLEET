@@ -16,10 +16,10 @@ Following are the files:
 ## How to run the code <br>
 - Clone the entire repository - into a local folder <br>  
 - create a .env file in the same directory with following keys:
-    - PINATA_API_KEY - <you need to get the API key from https://app.pinata.cloud/>
-    - PINATA_SECRET_API_KEY - <you need to get the SECRET_API key from https://app.pinata.cloud/>
-    - WEB3_PROVIDER_URI - <copy Ganache RPC SERVER ip and port>
-    - SMART_CONTRACT_ADDRESS - <address of the smartcontract cars_smart_contract.sol after deployment>  
+    - PINATA_API_KEY - [you need to get the API key from https://app.pinata.cloud/]
+    - PINATA_SECRET_API_KEY - [you need to get the SECRET_API key from https://app.pinata.cloud/]
+    - WEB3_PROVIDER_URI - [copy Ganache RPC SERVER ip and port]
+    - SMART_CONTRACT_ADDRESS - [address of the smartcontract cars_smart_contract.sol after deployment] 
 - Run Ganache and setup metamask account with RPC server address in Ganache (example HTTP://127.0.0.1:8545)
 - Compile cars_smart_contract.sol in remix and copy the ABI into cars_smart_contract.json which is in the same folder
 - Deploy cars_smart_contract.sol through remix - make sure remix ENVIRONMENT is set to "Injected Web3"
